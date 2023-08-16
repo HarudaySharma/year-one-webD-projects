@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+
+    <meta charset="utf-8" />
+    <link href="./login.css" type="text/css" rel="stylesheet" />
+    <link href="../images/icons8-slack-96.png" type="image/png" rel="icon" sizes="96x96" />
+    <title>Login | Slack</title>
+
+</head>
+
+<body>
+
+    <div class="headcontainer">
+
+        <img src="../images/Slack-Logo.png" alt="Slack Logo" />
+
+        <h1>
+            Sign in to Slack
+        </h1>
+
+        <p>We suggest using the <strong>email address you use at work.</strong>
+        </p>
+
+        <form name="login-form" target="_blank" method="POST" action="Login Successfull" align="center">
+
+            <button id="google" onclick="alert('You will be redirected to the Google sign in page')">
+
+                <img src="../images/google.png" alt="google logo" /> <span>Sign in With Google</span>
+
+            </button>
+
+            <button id="apple" onclick="alert('You will be redirected to the Apple sign in page')">
+
+                <img src="../images/apple-logo.png" alt="apple logo" /> <span>Sign in With Apple</span>
+
+            </button>
+
+            <p class="line"></p>
+
+            <span><strong>OR</strong></span>
+
+            <p class="line"></p>
+
+            <input type="email" name="user-email" id="email" value="" placeholder="name@work-email.com"
+                maxlength="80" required>
+
+            <input id="submit" type="submit" value="Sign in with Email"/>
+
+
+
+        </form>
+
+    </div>
+
+    <div class="relative">
+
+        <span style="color: gray;">
+            New to Slack?
+            <br>
+            <a href="./Signup.html" target="_blank">Create an account</a>
+        </span>
+    </div>
+</body>
+
+</html>
